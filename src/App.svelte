@@ -1,0 +1,15 @@
+<script>
+  import DashboardLayout from "./layouts/DashboardLayout.svelte";
+</script>
+
+<style global lang="postcss">
+  /* Only apply purgecss on utilities, per the Tailwind documentation. */
+  /* purgecss start ignore */
+  @tailwind base;
+  @tailwind components;
+  /* purgecss end ignore */
+
+  @tailwind utilities;
+</style>
+
+<DashboardLayout />
